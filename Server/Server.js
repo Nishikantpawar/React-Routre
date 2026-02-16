@@ -137,7 +137,7 @@ app.get("/api/products", (req, res) => {
     {
       id: 15,
       name: "iPhone 14 Pro",
-      image: "https://images.unsplash.com/photo-1663499482460-1bba59e86cdc",
+      image: "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       price: 1299,
       category: "Electronics",
       description:
@@ -182,7 +182,7 @@ app.get("/api/products", (req, res) => {
     {
       id: 20,
       name: "Wireless Bluetooth Headphones",
-      image: "https://images.unsplash.com/photo-1679533662345-b321cf2d8792?q=80&w=667&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://images.unsplash.com/photo-1580894908361-967195033215",
       price: 199,
       category: "Electronics",
       description:
@@ -191,16 +191,16 @@ app.get("/api/products", (req, res) => {
     {
       id: 21,
       name: "Women’s Handbag",
-      image: "https://images.unsplash.com/photo-1564139615082-01535600057f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3",
       price: 120,
       category: "Accessories",
       description:
         "Elegant women’s handbag made of premium leather with multiple compartments."
     },
     {
-      id: 22,
+      id: 23,
       name: "Gaming Laptop RTX 4060",
-      image: "https://images.unsplash.com/photo-1698512475067-74ed7c956c8d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302",
       price: 1499,
       category: "Electronics",
       description:
