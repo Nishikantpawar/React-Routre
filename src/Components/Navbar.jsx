@@ -7,11 +7,11 @@ function Navbar({ title }) {
   const { cart = [] } = useContext(CartContext) || {};
   const location = useLocation();
 
-  const navLink =
-    "relative font-medium transition duration-300 hover:text-rose-500";
+ const navLink =
+  "relative font-medium text-gray-200 transition duration-300 hover:text-rose-400";
 
   const activeLink =
-    "text-rose-500 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-[2px] after:bg-rose-500";
+  "text-rose-400 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-[2px] after:bg-rose-400";
 
   return (
     <header className="sticky top-0 z-50 bg-black/70 backdrop-blur-xl border-b border-white/10 shadow-xl">
