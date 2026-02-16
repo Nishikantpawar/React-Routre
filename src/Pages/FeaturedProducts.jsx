@@ -8,7 +8,7 @@ const FeaturedProducts = () => {
 
   useEffect(() => {
     axios.get("http://localhost:3000/api/products")
-      .then(res => setProducts(res.data.slice(0, 3)))
+      .then(res => setProducts(res.data.slice(0,3)))
       .catch(err => console.log(err));
   }, []);
 
