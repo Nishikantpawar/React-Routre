@@ -131,7 +131,84 @@ app.get("/api/products", (req, res) => {
       "categories": ["Home & Kitchen", "Cookware"],
       "description": "Durable non-stick cookware set with heat-resistant handles for everyday cooking needs."
     },
-    
+
+
+
+    {
+      id: 15,
+      name: "iPhone 14 Pro",
+      image: "https://images.unsplash.com/photo-1663499482460-1bba59e86cdc",
+      price: 1299,
+      category: "Electronics",
+      description:
+        "Apple iPhone 14 Pro with A16 Bionic chip, 48MP camera, Dynamic Island, and Super Retina XDR display."
+    },
+    {
+      id: 16,
+      name: "Nike Air Max 270",
+      image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519",
+      price: 150,
+      category: "Footwear",
+      description:
+        "Comfortable and stylish Nike Air Max 270 sneakers with breathable mesh and responsive cushioning."
+    },
+    {
+      id: 17,
+      name: "Samsung 55-inch 4K Smart TV",
+      image: "https://images.unsplash.com/photo-1593784991095-a205069470b6",
+      price: 699,
+      category: "Electronics",
+      description:
+        "Ultra HD 4K Smart TV with HDR support, built-in streaming apps, and crystal-clear display."
+    },
+    {
+      id: 18,
+      name: "Wooden Study Desk",
+      image: "https://images.unsplash.com/photo-1625874274375-71db2bf2f50c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      price: 249,
+      category: "Furniture",
+      description:
+        "Minimalist wooden study desk with storage drawer and sturdy metal legs, perfect for home office."
+    },
+    {
+      id: 19,
+      name: "Men's Casual Denim Jacket",
+      image: "https://images.unsplash.com/photo-1739652398636-80c7ea73291e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      price: 89,
+      category: "Clothing",
+      description:
+        "Premium quality men's denim jacket with slim fit design and durable fabric."
+    },
+    {
+      id: 20,
+      name: "Wireless Bluetooth Headphones",
+      image: "https://images.unsplash.com/photo-1679533662345-b321cf2d8792?q=80&w=667&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      price: 199,
+      category: "Electronics",
+      description:
+        "Noise-cancelling wireless headphones with deep bass, 30-hour battery life, and fast charging."
+    },
+    {
+      id: 21,
+      name: "Women’s Handbag",
+      image: "https://images.unsplash.com/photo-1564139615082-01535600057f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      price: 120,
+      category: "Accessories",
+      description:
+        "Elegant women’s handbag made of premium leather with multiple compartments."
+    },
+    {
+      id: 22,
+      name: "Gaming Laptop RTX 4060",
+      image: "https://images.unsplash.com/photo-1698512475067-74ed7c956c8d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      price: 1499,
+      category: "Electronics",
+      description:
+        "High-performance gaming laptop with RTX 4060 GPU, 16GB RAM, and 1TB SSD storage."
+    }
+
+
+
   ]
 
   res.json(product)
